@@ -1,5 +1,5 @@
 package it.polimi.models;
 
-public class Estabilish {
+public class Establish {
 
 }
