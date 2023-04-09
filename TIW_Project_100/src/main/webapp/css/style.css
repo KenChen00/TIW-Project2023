@@ -13,6 +13,8 @@ input[type=text]{
 
 }
 
+
+
 a{
 	color: inherit;
 	text-decoration: none;
@@ -27,11 +29,6 @@ a:hover{
 	padding: 10px;
 }
 
-/*
-a:focus {
-    outline: solid 1px !important;
-}
-*/
 
 #loginhtml{
 	background-color: grey;
@@ -51,7 +48,7 @@ a:focus {
   flex-direction: column;
   border: 1px solid grey;
   width: 500px;
-  height: auto;
+  height: 300px;
 	position:relative;
   justify-content: center;
   text-align: center;
@@ -60,20 +57,34 @@ a:focus {
 }
 
 #container {
-  margin: auto;
-
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-	width: 100px;
-	height: 100px;
-	padding-bottom: 50px;
+	width: 500px;
+	height: 250px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
+
 
 #L1{
 	text-align: center;
 	color: red;
+}
+
+form#formLogin{
+	align-items: center;
+	padding: 10px;
+	width: 500px;
+	height: 200px;
+
+}
+
+input[type=text].loginIn{
+	margin: 2px;
+
 }
 
 #login{
@@ -86,9 +97,27 @@ a:focus {
 .topper{
 	position: static;
 	background-color: #004280;
-	padding: 10px;
-	border: 0;
+	padding: 0px;
 	top: 0;
+	height: 100%;
+}
+
+#toptable{
+	border-collapse: separate;
+	border-spacing: 0 5px;
+
+	width:100%;
+	height: 100%;
+	align="center";
+	background-color: #004280;
+}
+
+
+ul#menu{
+	margin-top: 16;
+	margin-right: 0;
+	padding-left: 0;
+	size:400px;
 }
 
 
@@ -100,11 +129,29 @@ ul#menu li{
 	padding: 0;
 }
 
-.search{
-  float:right;
-  padding-right: 0px;
-	width: 60%;
+topper>div.search{
+	padding: 10px;
+  padding-right: 10px;
 }
+
+.search{
+	padding: 10px;
+	display: inline;
+	width: 50%;
+	text-align: center;
+}
+.search>inpu{
+	width: 80%;
+}
+.search>button{
+	width: 20%;
+}
+
+input[type=text].search{
+	width:80%;
+}
+
+
 
 #customsearch{
 	padding: 5px;
@@ -112,10 +159,11 @@ ul#menu li{
 }
 
 #BackLogin{
-	margin-left: 100px;
-	padding-left: 50px;
+	margin-left: 0px;
 	font-family: cursive;
 	color: white;
+
+
 }
 
 #C1{
@@ -148,10 +196,8 @@ ul#menu li{
 
 }
 
-.overlay{
-
-
-
+ul#lastseen{
+	padding-left: 10px;
 }
 
 ul#lastseen li{
@@ -159,7 +205,6 @@ ul#lastseen li{
   list-style-type: none;
   background-color: white;
   margin:0;
-  padding: 0;
   width: 30px;
   height: 300px;
   background-size: 1px;

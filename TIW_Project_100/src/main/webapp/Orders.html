@@ -8,23 +8,33 @@
 
 <body>
   <div class="topper">
-    <h1 id="C1">Lista Ordini</h1>
+    <h1 id="C1">Home</h1>
+    </div>
+    <table id="toptable" >
+        <tr>
+          <td>
+              <div id="menublock">
 
-    <ul id="menu">
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="cart.html">Carrello</a></li>
-      <li><a href="orders.html">Ordini</a></li>
-      <div class="search">
-          <form action="Results.html">
-            <input type="text" name="search" placeholder="Search Product">
-            <button type="submit" name="button" onclick=""><i class="fa fa-search" id="customsearch"></i></button>
-              <a id="BackLogin" href="Index.html">Go To Login page</a>
-          </form>
-
-      </div>
-
-    </ul>
-  </div>
+                <ul id="menu">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="cart.html">Carrello</a></li>
+                    <li><a href="orders.html">Ordini</a></li>
+                  </ul>
+                </div>
+          </td>
+              <td>
+                <div class="search">
+                    <form action="Results.html">
+                      <input class="search" type="text" name="search" placeholder="Search Product">
+                      <button type="submit" name="button" onclick=""><i class="fa fa-search" id="customsearch"></i></button>
+                    </form>
+                  </div>
+              </td>
+              <td>
+                    <a id="BackLogin" href="Index.html">Go To Login page</a>
+              </td>
+      </tr>
+  </table>
   <hr color="black" style="margin:0" width="99.8%">
   </body>
 
