@@ -1,0 +1,167 @@
+html {
+	background:lightblue;
+	height: 97%;
+}
+
+body{
+	margin: 0;
+}
+
+input[type=text]{
+	width: 50%;
+	padding: 5px;
+
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+	padding: 10px;
+	background-color:trasarent;
+
+
+}
+a:hover{
+	margin: auto;
+	outline: solid 1px !important;
+	padding: 10px;
+}
+
+/*
+a:focus {
+    outline: solid 1px !important;
+}
+*/
+
+#loginhtml{
+	background-color: grey;
+	width: auto;
+	height: 100%;
+	border: 0;
+	margin: 0;
+}
+
+.wrapper{
+	background:white;
+	padding: 10px;
+	margin: auto;
+	top: 100px;
+	align-items: center;
+	display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 500px;
+  height: auto;
+	position:relative;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 3px 3px darkgrey;
+
+}
+
+#container {
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+	width: 100px;
+	height: 100px;
+	padding-bottom: 50px;
+}
+
+#L1{
+	text-align: center;
+	color: red;
+}
+
+#login{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.topper{
+	position: static;
+	background-color: #004280;
+	padding: 10px;
+	border: 0;
+	top: 0;
+}
+
+
+ul#menu li{
+	color: white;
+  display: inline;
+  margin: 30px;
+	font-family: cursive;
+	padding: 0;
+}
+
+.search{
+  float:right;
+  padding-right: 0px;
+	width: 60%;
+}
+
+#customsearch{
+	padding: 5px;
+
+}
+
+#BackLogin{
+	margin-left: 100px;
+	padding-left: 50px;
+	font-family: cursive;
+	color: white;
+}
+
+#C1{
+  color: white;
+  padding-left: 100px;
+	font-family: cursive;
+	margin: 0px;
+}
+
+#C3{
+  color: #121032;
+  padding-left: 100px;
+  font-weight: normal;
+  font-family: cursive;
+}
+
+
+
+.recentSeen{
+    position: relative;
+    background-color: #e9e8fc;
+    width: auto;
+    height: 400px;
+    opacity: 0.8;
+    padding: 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-left: 0px;
+
+}
+
+.overlay{
+
+
+
+}
+
+ul#lastseen li{
+  display: inline;
+  list-style-type: none;
+  background-color: white;
+  margin:0;
+  padding: 0;
+  width: 30px;
+  height: 300px;
+  background-size: 1px;
+
+}
