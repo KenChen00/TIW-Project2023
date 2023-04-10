@@ -72,6 +72,16 @@ body {
   cursor: pointer;
 }
 
+.title__label{
+  font-size: 44px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color: #1a3b5d;
+  width: 100%;
+  display: block;
+  text-align: center;
+
+}
 .input__label {
   font-size: 14px;
   margin-bottom: 5px;
@@ -107,7 +117,9 @@ body {
 
 .backlogin-btn {
   position: absolute;
-  right: 5px;
+  left: 5px;
+  top:5px;
+  height: 50px;
   bottom: 50px;
   text-decoration: none;
   padding: 15px 25px;
