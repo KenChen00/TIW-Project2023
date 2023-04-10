@@ -1,6 +1,7 @@
 html {
 	background:lightblue;
 	height: 97%;
+	font-family: cursive;
 }
 
 body{
@@ -19,16 +20,21 @@ a{
 	color: inherit;
 	text-decoration: none;
 	padding: 10px;
-	background-color:trasarent;
+	background-color:trasparent;
 
 
 }
-a:hover{
+a.page:hover{
 	margin: auto;
 	outline: solid 1px !important;
 	padding: 10px;
 }
 
+a#register{
+
+	text-decoration: underline;
+
+}
 
 #loginhtml{
 	background-color: grey;
