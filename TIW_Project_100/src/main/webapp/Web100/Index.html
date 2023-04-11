@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html id="loginhtml">
-  <head>
-      <title>WebShop</title>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
-  </head>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>100-Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="css/style2.css" rel="stylesheet" type="text/css"/>
+</head>
 
-  <body>
-    <div class="wrapper">
+<body>
 
+<div class="wrapper">
+  <div class="form" action="Home.html">
+    <div class="form__inner">
 
-      <div id="container">
-        <h1 id="L1">Login to WebShop</h1>
-        <form id="formLogin" action="Home.html">
-          <input class="loginIn" type="text" name="name" placeholder="E-mail" style="text-align:center"><br>
-          <input class="loginIn" type="text" name="surname" placeholder="Password" style="text-align:center"><br>
-          <button style="margin:10px" type="submit" name="button" onclick="">Login</button>
-          <p>Don't have an account? <a id="register" href="RegAccount.html">Register new account</a> </p>
-        </form>
+      <label class="title__label">100 Shop</label>
+      <div class="input-cell">
+        <label class="input__label" name="name" placeholder="E-mail">Email</label>
+        <input type="email" class="reg-input__input">
       </div>
+      <div class="input-cell">
+        <label class="input__label" name="password" placeholder="Password">Password</label>
+        <input type="password" class="reg-input__input">
       </div>
-  </body>
-
+      <button class="form__button" type="submit">Login</button>
+      <label class="input__label"> <p style="margin-top:20px">Don't have an account? <a href="RegAccount.html">Register new account</a> </p></label>
+    </div>
+  </div>
+</div>
+</body>
 
 </html>
+
+</form>
+</div>
+</div>
