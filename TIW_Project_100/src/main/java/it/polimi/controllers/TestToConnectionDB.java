@@ -16,7 +16,7 @@ public class TestToConnectionDB extends HttpServlet {
 	      throws ServletException, IOException {
 	    final String DB_URL = "jdbc:mysql://localhost:3306/Web100?serverTimezone=UTC";
 	    final String USER = "root";
-	    final String PASS = "";
+	    final String PASS = "Mao31101999";
 	    String result = "Connection worked";
 	    try {
 	      Class.forName("com.mysql.cj.jdbc.Driver");
