@@ -1,4 +1,4 @@
-package it.polimi.controllers;
+package it.polimi.utils;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 public class TestToConnectionDB extends HttpServlet {
 	
 	 private static final long serialVersionUID = 1L;
-	 
 	  protected void doGet(HttpServletRequest request, HttpServletResponse response)
 	      throws ServletException, IOException {
 	    final String DB_URL = "jdbc:mysql://localhost:3306/Web100?serverTimezone=UTC";
@@ -31,5 +30,4 @@ public class TestToConnectionDB extends HttpServlet {
 	    out.println(result);
 	    out.close();
 	}
-	
 }

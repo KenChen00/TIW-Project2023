@@ -1,4 +1,4 @@
-package it.polimi.models;
+package it.polimi.beans;
 
 public class Sell {
 	private String codeProduct;
