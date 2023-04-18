@@ -3,6 +3,7 @@ package it.polimi.beans;
 public class Product {
 	private String code;
 	private String name;
+	private String price;
 	private String category;
 	private String photo;
 	private String description;
@@ -21,6 +22,14 @@ public class Product {
 	
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public String getPrice() {
+		return price;
+	}
+	
+	public void setPrice(String price) {
+		this.price = price;
 	}
 	
 	public String getCategory() {

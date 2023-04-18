@@ -4,10 +4,9 @@ public class SpendingRange {
 
 		private String codeSeller;
 		private String id;
-		private float rangeMax;
-		private float rangeMin;
-		private float cost;
-		private int quantity;
+		private float maxQty;
+		private float minQty;
+		private float cost;	
 		
 		public String getCodeSeller() {
 			return codeSeller;
@@ -25,20 +24,20 @@ public class SpendingRange {
 			this.id = id;
 		}
 		
-		public float getRangeMax() {
-			return rangeMax;
+		public float getMaxQty() {
+			return maxQty;
 		}
 		
-		public void setRangeMax(float rangeMax) {
-			this.rangeMax = rangeMax;
+		public void setMaxQty(float maxQty) {
+			this.maxQty = maxQty;
 		}
 		
-		public float getRangeMin() {
-			return rangeMin;
+		public float getMinQty() {
+			return minQty;
 		}
 		
-		public void setRangeMin(float rangeMin) {
-			this.rangeMin = rangeMin;
+		public void setMinQty(float minQty) {
+			this.minQty = minQty;
 		}
 		
 		public float getCost() {
@@ -49,13 +48,6 @@ public class SpendingRange {
 			this.cost = cost;
 		}
 		
-		public int getQuantity() {
-			return quantity;
-		}
-		
-		public void setQuantity(int quantity) {
-			this.quantity = quantity;
-		}
 		
 
 }
