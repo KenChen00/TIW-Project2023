@@ -27,21 +27,21 @@ public class LoginServlet extends HttpServlet {
 		try {
 			PrintWriter out = response.getWriter();
 			response.setContentType("text/html");
-		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Web100?serverTimezone=UTC","root","Mao31101999");
-		String n = request.getParameter("txtName");
-		String p = request.getParameter("txtPwd");
-		PreparedStatement ps = con.prepareStatement("select email from Web100.User where email=? and password=?");
-		ps.setString(1, n);
-		ps.setString(2,p);
-		ResultSet rs = ps.executeQuery();
-		if(rs.next()) {
-			RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
-			rd.forward(request, response);
-		}
-		else {
-			out.println("<font color=red size=18>Login Failed!<br>");
-			out.println("<a href = Login.jsp> Try Again </a>");
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Web100?serverTimezone=UTC","root","Mao31101999");
+			String n = request.getParameter("txtName");
+			String p = request.getParameter("txtPwd");
+			PreparedStatement ps = con.prepareStatement("select email from Web100.User where email=? and password=?");
+			ps.setString(1, n);
+			ps.setString(2,p);
+			ResultSet rs = ps.executeQuery();
+			if(rs.next()) {
+				RequestDispatcher rd = request.getRequestDispatcher("welcome.jsp");
+				rd.forward(request, response);
+			}
+			else {
+				out.println("<font color=red size=18>Login Failed!<br>");
+				out.println("<a href = Login.jsp> Try Again </a>");
 		}
 				
 		}catch(ClassNotFoundException e) {
